@@ -19,11 +19,15 @@ Tableau de bord administrateur
 # 1.1 Base de données
 Création de la base de données hosting_manager avec les tables suivantes :
 
-admins : gestion des comptes administrateurs
-clients : informations des clients
-domaines : liste des noms de domaines
-hebergements : plans d'hébergement liés aux clients
-paiements : historique des transactions
+- admins : gestion des comptes administrateurs
+  
+-clients : informations des clients
+
+-domaines : liste des noms de domaines
+
+-hebergements : plans d'hébergement liés aux clients
+
+-paiements : historique des transactions
 
 
 # 1.2 Développement Backend - PHP
