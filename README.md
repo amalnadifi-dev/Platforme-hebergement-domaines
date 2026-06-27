@@ -14,7 +14,6 @@ Tableau de bord administrateur
 - PHP
 - MySQL
 
-- 
 #  Rapport Semaine 1 - 
 1. Travaux réalisés cette semaine
 # 1.1 Base de données
