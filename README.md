@@ -13,8 +13,9 @@ Tableau de bord administrateur
 - JavaScript
 - PHP
 - MySQL
-#  Rapport Semaine 1 - Amal Nadifi
 
+- 
+#  Rapport Semaine 1 - 
 1. Travaux réalisés cette semaine
 # 1.1 Base de données
 Création de la base de données hosting_manager avec les tables suivantes :
@@ -22,8 +23,6 @@ admins : gestion des comptes administrateurs
 clients : informations des clients domaines : liste des noms de domaines
 hebergements : plans d'hébergement liés aux clients
 paiements : historique des transactions
-
-
 # 1.2 Développement Backend - PHP
 Configuration: fichier base_donnees.php pour la connexion sécurisée à MySQL
 Système d'authentification :
@@ -42,6 +41,32 @@ Backend : PHP 8, PDO MySQL
 Base de données : MySQL - hosting_manager
 Frontend : HTML5, CSS3 moderne
 Outils : VS Code, Git/GitHub, XAMPP
-# 3. Prochaines étapes - Semaine 2
-Finaliser le CRUD clients et domaines
-Améliorer le design du dashboard avec statiques
+
+
+
+#  Rapport Semaine 2 - 
+## Module Clients - CRUD Complet
+- Fichiers créés : clients/ajouter.php, clients/liste.php, clients/modifier.php, clients/supprimer.php
+Fonctionnalités :
+- Ajout nouveau client avec validation des champs
+- Liste des clients avec informations
+- Modification des informations client
+- Suppression avec confirmation 
+## Module Domaines - CRUD Complet
+- Fichiers créés : domaines/ajouter.php, domaines/liste.php, domaines/modifier.php, domaines/supprimer.php
+Fonctionnalités :
+- Liaison avec table clients via clé étrangère client_id
+- Gestion des dates : date_achat et date_expiration
+- Liste des domaines avec statut : Actif / Expire bientôt / Expiré
+- Formulaire d'ajout avec menu déroulant des clients existants
+- Validation des dates d'expiration
+- - Ajout nouveau domaine avec validation des champs
+- Modification 
+- Suppression avec confirmation 
+## Module Hébergements - Démarrage
+- Fichier créé : hebergements/ajouter.php
+- Fonctionnalités : Formulaire d'ajout avec liaison client + domaine
+- État : En cours de développement - CRUD à compléter semaine 3
+## Difficultés rencontrées
+- Gestion des clés étrangères entre domaines et clients lors de la suppression
+- Validation des dates d'expiration en PHP vs MySQL
