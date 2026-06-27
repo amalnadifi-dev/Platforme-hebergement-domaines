@@ -59,7 +59,7 @@ Fonctionnalités :
 - Liste des domaines avec statut : Actif / Expire bientôt / Expiré
 - Formulaire d'ajout avec menu déroulant des clients existants
 - Validation des dates d'expiration
-- - Ajout nouveau domaine avec validation des champs
+- Ajout nouveau domaine avec validation des champs
 - Modification 
 - Suppression avec confirmation 
 ## Module Hébergements - Démarrage
