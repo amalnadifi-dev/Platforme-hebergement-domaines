@@ -69,3 +69,25 @@ Fonctionnalités :
 ## Difficultés rencontrées
 - Gestion des clés étrangères entre domaines et clients lors de la suppression
 - Validation des dates d'expiration en PHP vs MySQL
+# rapport semaine 3-
+# Objectif de la semaine
+Finaliser modules Hébergements et Paiements.
+## Réalisations
+# Module Hébergements - CRUD Complet
+- Création fichiers : ajouter.php, liste.php, modifier.php, supprimer.php
+- Ajout hébergement avec choix client, plan, espace disque, bande passante
+- Gestion dates début et expiration
+- Liste des hébergements avec nom du client
+- Modification et suppression hébergement
+- Sécurisation avec PDO et authentification
+# Module Paiements - CRUD Complet
+- Création fichiers : ajouter.php, liste.php, modifier.php, facture.php
+- Ajout paiement lié au client et hébergement
+- Champs : montant, date paiement, méthode, statut
+- Liste des factures avec statut payé/en attente..
+- Modification et suppression paiement
+# Difficultés rencontrées
+Gestion des liaisons entre tables
+Calcul des dates d'expiration
+Tests complets de la plateforme
+
