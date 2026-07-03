@@ -84,7 +84,7 @@ Finaliser modules Hébergements et Paiements.
 - Modification et suppression hébergement
 - Sécurisation avec PDO et authentification
 # Module Paiements - CRUD Complet
-- Création fichiers : ajouter.php, liste.php, modifier.php, facture.php
+- Création fichiers : ajouter.php, liste.php, modifier.php, facture.php, supprimer.php
 - Ajout paiement lié au client et hébergement
 - Champs : montant, date paiement, méthode, statut
 - Liste des factures avec statut payé/en attente..
