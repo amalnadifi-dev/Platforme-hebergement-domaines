@@ -98,7 +98,7 @@ body {font-family:'Inter',sans-serif; color:#0f172a; display:flex; min-height:10
   <a href="../domaines/liste.php"><i class="fa fa-globe"></i> Domaines</a>
   <a href="../hebergement/liste.php"><i class="fa fa-server"></i> Hébergements</a>
   <a href="../paiements/liste.php"><i class="fa fa-credit-card"></i> Paiements</a>
-  <a href="../notifications"><i class="fa fa-bell"></i> Alertes</a>
+  <a href="../notifications/alertes.php"><i class="fa fa-bell"></i> Alertes</a>
   <a href="deconnexion.php"><i class="fa fa-sign-out-alt"></i> Déconnexion</a>
 </div>
 
