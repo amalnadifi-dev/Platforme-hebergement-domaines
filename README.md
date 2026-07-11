@@ -94,3 +94,49 @@ Finaliser modules Hébergements et Paiements.
 - Calcul des dates d'expiration
 - Tests complets de la plateforme
 
+
+
+  # rapport Semaine 4  - Semaine Finale
+
+### Objectif de la semaine
+Finaliser la plateforme .
+
+### Réalisations
+
+#### 1. Module Alertes - Terminé
+- Création fichier `alertes.php`
+- Système d'alertes automatiques pour domaines expirant dans 30 jours
+- Alertes pour hébergements expirant bientôt
+- Affichage notifications dans tableau de bord
+
+#### 2. Tests et Débogage Plateforme
+- Test complet des 4 modules : Clients, Domaines, Hébergements, Paiements
+- Correction bug suppression paiement
+- Correction bug affichage facture
+- Vérification sécurité PDO sur tous les formulaires
+- Test authentification et sessions
+- Vérification responsive design
+
+#### 3. Optimisations
+- Ajout messages de confirmation suppression
+- Optimisation temps de chargement listes
+
+#### 4. Préparation
+- Code complet pushé sur GitHub
+- Captures d'écran de toutes les fonctionnalités
+- README.md finalisé avec documentation
+- Préparation rapport de stage final
+
+### Bilan Global du Stage
+-Modules développés :5 modules complets + Dashboard
+- Fichiers créés : 20+ fichiers PHP
+- Technologies : PHP 8, MySQL, PDO, HTML/CSS
+- Fonctionnalités : CRUD complet, authentification, alertes, factures
+
+
+### État Final
+Plateforme HostManager 95ù% fonctionnelle et prête pour production, et les erreurs seront corigées si ells sont détectées.
+
+### Lien
+GitHub : https://github.com/amalnadifi-dev/Plateforme-hebergement-domaines/tree/main/host_manager
+fin de stage...
