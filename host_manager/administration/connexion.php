@@ -76,7 +76,6 @@ h2 {
   text-transform: uppercase;
 }
 
-
 .input {
   position: relative;
   margin-bottom: 16px;
@@ -154,47 +153,6 @@ button:hover {
   font-size: 13px;
   color: #fecaca;
 }
-
-.google {
-  margin-top: 12px;
-  padding: 12px;
-  background: #ffffff;
-  color: #1f2937;
-  border-radius: 10px;
-  text-align: center;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  border: 1px solid #e5e7eb;
-  transition: 0.2s;
-}
-
-.google:hover {
-  background: #f9fafb;
-}
-
-.google i {
-  margin-right: 8px;
-  color: #4285F4;
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  margin-top: 16px;
-}
-
-.links a {
-  color: #60a5fa;
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.links a:hover {
-  color: #93c5fd;
-  text-decoration: underline;
-}
 </style>
 </head>
 
@@ -224,15 +182,6 @@ button:hover {
 <button type="submit">Login</button>
 
 </form>
-
-<div class="google">
-<i class="fa-brands fa-google"></i> Continue with Google
-</div>
-
-<div class="links">
-<a href="#">Forgot password?</a>
-<a href="#">Create account</a>
-</div>
 
 </div>
 
