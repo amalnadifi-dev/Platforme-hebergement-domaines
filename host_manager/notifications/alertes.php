@@ -143,6 +143,7 @@ tr:hover {background:rgba(99,102,241,0.08);}
   <a href="../clients/liste.php"><i class="fa fa-users"></i> Clients</a>
   <a href="../domaines/liste.php"><i class="fa fa-globe"></i> Domaines</a>
   <a href="../hebergements/liste.php"><i class="fa fa-server"></i> Hébergements</a>
+    <a href="../paiements/liste.php"><i class="fa fa-credit-card"></i> Paiements</a>
   <a href="alertes.php" class="active"><i class="fa fa-bell"></i> Alertes</a>
   <a href="../administration/deconnexion.php"><i class="fa fa-sign-out-alt"></i> Déconnexion</a>
 </div>
