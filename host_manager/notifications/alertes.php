@@ -2,9 +2,9 @@
 require_once("../administration/auth.php");
 require_once("../configuration/base_donnees.php");
 
-$theme = $_SESSION['theme'] ?? 'dark';
 
-// Domaines li 9erbo ysaliw fi 30 jours wla salaw
+
+
 $stmt_domaines = $pdo->query("
     SELECT d.*, c.full_name, 'domaine' as type,
     DATEDIFF(d.date_expiration, CURDATE()) as jours_restants
@@ -15,7 +15,7 @@ $stmt_domaines = $pdo->query("
 ");
 $domaines_alertes = $stmt_domaines->fetchAll();
 
-// Hébergements li 9erbo ysaliw fi 30 jours wla salaw
+
 $stmt_hebergements = $pdo->query("
     SELECT h.*, c.full_name, 'hebergement' as type,
     DATEDIFF(h.date_expiration, CURDATE()) as jours_restants
@@ -26,7 +26,7 @@ $stmt_hebergements = $pdo->query("
 ");
 $hebergements_alertes = $stmt_hebergements->fetchAll();
 
-// Njme3hom kolchi
+
 $alertes = array_merge($domaines_alertes, $hebergements_alertes);
 usort($alertes, function($a, $b) {
     return $a['jours_restants'] - $b['jours_restants'];
@@ -76,7 +76,7 @@ th, td {border-bottom:1px solid #f1f5f9;}
 
 .sidebar a i {width:20px; margin-right:10px;}
 
-/* SORA BAYNA DABA - KHFIFT BEZZAF */
+
 .content {
   margin-left:240px; 
   padding:30px; 
